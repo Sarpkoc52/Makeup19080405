@@ -1,0 +1,201 @@
+---
+title: "Participation in sports by gender and change in the number of athletes in Turkey by years"
+author: 
+  - Koç, Mehmet Sarp[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+abstract: |
+    This study aims to analyze the number of athletes and the distribution of athletes participating in sports branches by gender. Sport is an activity that has a positive effect on human health. In this study, the number of athletes engaged in different sports branches and the interest shown in sports branches according to gender will be analyzed. In this study, data obtained from various sources, especially TUIK, were used. The data are compiled from statistics from sports federations, clubs, surveys and various sporting events. According to the results of the analysis, there is a difference between the gender distribution of the athletes in each sport. For example, while the number of male athletes may be higher than female athletes in some sports, the number of female athletes may be higher than the number of male athletes in other sports branches. These results show that the orientation towards sports branches differs according to gender and interests in society. This study presents a data-based approach to analyze the distribution by gender and number of athletes. Resulting, spore protection leads to efforts to reproduce and promote between the sexes. In conclusion, this study, which analyzes the number of athletes and the distribution by gender, is an important step to understand the prevalence of sports in society and consumption between genders. Limit what can be done to promote the increase between the sexes of sport, to ensure that this education is taken to continue.
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080405, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+
+
+
+
+# Introduction
+
+Sport is an important activity for human health. Sports allow people to live a quality life. Sport is an activity that is common in society and offers various benefits. With the spread of sports to a wide base in the society, understanding the number of athletes and their distribution by gender has gained importance. This study aims to investigate how the number of athletes is distributed in different sports branches and how this distribution changes according to gender. In this study, the number of athletes and their distribution by gender were analyzed using TUIK data. These data provide information about the prevalence, popularity and distribution of the sport between the sexes. Among the aims of the research are to analyze the distribution of athletes operating in different sports branches by gender, to evaluate the effect of sports on participation equality between genders, and to determine the measures that can be taken to guide sports federations and related organizations. The results of this study will reveal the general trends of the distribution according to the number of athletes and gender. It will indicate which gender is more interested in which sports. In conclusion, this study is a research investigating the number of athletes and the distribution by gender. The results of the research will show the prevalence of sports and the distribution between genders.
+
+## Research Question and Data Source
+
+Why isn't every sport equally attracted to both genders? This study will seek an answer to this question and will be shaped around this question. With this research question, it will be examined how the number of athletes active in different sports branches and how their distribution changes according to gender. With this question, the differences and similarities between the gender participation rates in different sports branches can be determined, and it will be possible to analyze which sports branches have more athletes from which gender. 
+
+## Data Description
+
+In this study, TUIK data will be used, and the gender preferences and distributions will be analyzed by using TUIK data, and an answer to the study question will be sought. 
+
+## Literature Review
+
+Sport plays an important role for human health. Every person, regardless of gender, should make sports a part of her life. Both men and women should be active in sports. The popularity and prevalence of sports are important for understanding the number of athletes and the distribution between the sexes. In this literature review, previous studies to investigate the number of athletes and the distribution by gender were compiled and analyzed. In this part, the data of TUIK and the articles written on this subject were used. With the help of these data and articles, information that can shed light on the subject has been scanned. According to the observed data, it is striking that the most preferred sport branch by men worldwide is football. There is an opinion that football is a men's sport around the world. Recently, organizations such as FIFA have been trying to include women in football, but it is clear that this situation does not cause a visible change in the world. Similar results can be found when looking at TUIK data. According to TUIK data, the number of men who are professionally interested in football in Turkey is many times higher than the number of women. On the contrary, there are sports that women do more actively. For example, when looking at volleyball, it is seen that the number of professional female athletes is higher than the number of professional male athletes. TUIK data also supports this information. The norms of thought and traditions among societies affect the interest of genders in sports. The interest in different types of sports between the two sexes is a result of this thinking. Factors such as gender norms, interests and preferences, accessibility and equal opportunity may affect the number of athletes and the distribution by gender. What is more, it is a visible fact that women do not participate in sports activities as much as men. The reasons for this situation are social norms, low level of education, insufficient investments in female athletes. When both the articles and the data of TUIK are examined, it is seen that the number of male athletes is higher than the number of female athletes, except for a few sports branches. The fact that women remain in the background in this way causes inequality in terms of sports. As in the whole world, it is seen that the number of male athletes is higher than the number of female athletes in Turkey. According to TUIK data, while there are 2229546 male athletes in Turkey in 2014, there are 989778 female athletes. This is proof of how large the difference between the participation rates of the two sexes is and that there is a visible inequality between the two sexes in the sports sector. However, the rate of participation in sports for both genders is increasing every year. This is a welcome development for societies. This increase was influenced by factors such as the increase in the development level of societies, the advancement of technology, the increase in communication between societies and the increase in the level of education. With the effect of these developments, it is an undeniable fact that women can participate more in sports. It is a visible fact that women's participation in sports is increasing every year. The fact that federations and organizations attach importance to women's participation in sports paved the way for women to become professional athletes. Moreover, studies in the literature also show that there has been an increasing awareness of gender equality in the field of sports in recent years. Sports federations, sports clubs and related organizations develop and implement various policies and programs to promote equal participation between the sexes. Among the factors affecting the number of athletes and the distribution by gender, there are factors such as gender norms, social expectations, education and equality of opportunity. In addition, the interests and preferences of individuals, the accessibility and promotion of sports branches can also affect the distribution. This literature review has examined the relationship of genders with sports, which gender is more active in which sports, the reasons for the increase in the number of athletes and the reasons for the increase in the number of female professional athletes day by day. In the light of these data, it can be said that women are still not at the forefront of their sports careers as much as men. In order to balance this situation, federations, institutions, associations and such communities need to play a more active role. Increasing the level of education is also seen as one of the most important factors that will prevent this imbalance. Sports federations and related organizations should make more efforts to develop policies and programs to achieve gender equality. The results of this study shed light on the efforts of sport to promote equality and participation between the sexes.
+
+# Data
+In this study, the number of athletes and the distribution of the number of athletes by gender were discussed. Articles and books suitable for this study, especially TUIK data, were also used. The studies benefited are as follows: [@ORTA2018], [@Levin1981], [@Frey1991], [@Mao2023], [@English1978], [@Pilyushenko2022], [@McNamee2021]
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(here)
+data <- readxl::read_xls("C:/Users/mehme/OneDrive/Masaüstü/Final/data/sarp.xls")
+```
+
+
+```{r, echo=FALSE}
+library(xtable) 
+library(summarytools)
+st_options(lang = "en")
+```
+
+
+```{r results='asis', echo=FALSE}
+library(xtable)
+library(tidyverse)
+library(summarytools)
+library(dplyr)
+data %>%
+  select("2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007") %>%
+  mutate_if(is.character, function(x) as.numeric(as.character(x))) %>%
+  descr(stats = c("mean", "sd", "min", "med", "max"), transpose = TRUE) %>%
+  xtable(caption = "Summary Statistics",
+         label = "tab:summary",
+         align = c("l", "c", "c", "c", "c", "c")) %>%
+  print(booktabs = TRUE, comment = FALSE, caption.placement = "top")
+
+```
+## Variable Description
+
+The number of professional female and male athletes in sports branches between 2007 and 2014 was evaluated. These data were provided by TUIK. In these data, the change in the number of athletes by years, the demand for which sports field from which gender, the differences in the number of athletes between genders, which sports branch is popular in Turkey, how the number of athletes changes from year to year, both in terms of gender and in total. data is available. These data provided a significant benefit to this study. It is possible to find information such as the total number of athletes in the study population or sample, the number of male athletes and its percentage or ratio, the number of female athletes and its percentage or ratio.
+
+# Methods and Data Analysis
+
+The aim of this study is to analyze the athletes affiliated to the federation between 2007-2014. The data used were obtained from TUIK. The main aim is to examine the factors in participation in sport and to examine the significant changes that occur over time. The obtained data are explained in tables, graphs and written form so that they can be interpreted comprehensively. A table was prepared in order to clearly show the change in the number of athletes from year to year. The sports branches with the highest number of athletes were shared in a graphic along with the number of athletes they had. This contributed to a clearer understanding of the trend among athletes' preferences. Comparative analyzes were performed and graphically illustrated to identify differences or similarities in sports participation between the sexes.
+
+
+```{r plot, echo=FALSE, fig.align='center', fig.cap='Change of federation over time'}
+library(ggplot2)
+library(tidyr)
+
+data_long <- data %>% 
+  gather(year, value, -Federasyon)
+
+ggplot(data_long, aes(x = year, y = as.numeric(value))) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Change of Federation over Time",
+       x = "Year",
+       y = "Federasyon")
+
+```
+
+```{r federasyon, echo=FALSE, fig.align='center', fig.cap='Compare of federation', echo=FALSE, fig.width=6, fig.height=4}
+
+library(ggplot2)
+library(tidyr)
+
+
+data_long <- data %>% 
+  gather(year, value, -Federasyon) %>%
+  mutate(value = as.numeric(value)) 
+
+top_federations <- data_long %>%
+  filter(year != "Federasyon") %>% 
+  group_by(Federasyon) %>%
+  summarize(total_sportsperson = sum(value, na.rm = TRUE)) %>% 
+  arrange(desc(total_sportsperson)) %>% 
+  head(10) 
+
+
+ggplot(top_federations, aes(x = reorder(Federasyon, total_sportsperson), y = total_sportsperson)) +
+  geom_bar(stat = "identity") +
+  labs(title = "En Fazla Sporcu Bulunduran Federasyonlar",
+       x = "Federasyon",
+       y = "Toplam Sporcu Sayısı") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r gender, echo=FALSE, fig.align='center', fig.cap='Gender', echo=FALSE, fig.width=6, fig.height=4}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+male <- data[grepl("Male", data$Federasyon), ]
+female <- data[grepl("Female", data$Federasyon), ]
+
+
+male_data <- data.frame(Year = c(2014:2007), Participation = as.numeric(male[1, 2:9]))
+female_data <- data.frame(Year = c(2014:2007), Participation = as.numeric(female[1, 2:9]))
+
+
+ggplot() +
+  geom_line(data = male_data, aes(x = Year, y = Participation, group = 1, color = "Male"), size = 1) +
+  geom_line(data = female_data, aes(x = Year, y = Participation, group = 1, color = "Female"), size = 1) +
+  labs(x = "Year", y = "Participation", color = "Gender") +
+  scale_color_manual(values = c("Male" = "blue", "Female" = "pink")) +
+  theme_minimal()
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+# Conclusion
+
+As a result, this study examined the number of athletes and the distribution of sports branches by gender. This study addressed the inequality between the sexes and the number of professional athletes. According to the results of the research, the number of athletes differ according to sports branches and genders. It is seen that the number of athletes has increased from year to year, and the number of male athletes is higher than the number of female athletes in most branches. This situation is mostly caused by insufficient social structure and opportunities. In order to increase the number of athletes and to provide incentives for sports, necessary opportunities should be provided to children, and they should be encouraged to participate in sports. These opportunities are available in the best schools. Schools should be provided with the necessary opportunities in terms of sports. In addition, it is seen that participation in sports is higher in men than in women. Issues such as gender inequality in society, false social taboos, and low level of education can be cited as responsible for this. The solution to this inequality is to raise the level of education, to take the necessary steps to ensure gender equality, and to offer equal opportunities to both genders. Equal opportunity is a right that should be provided to everyone regardless of race, gender, religion or country of origin. Equality of opportunity is of great importance in raising athletes, as it is in every subject. Equality of opportunity allows to train more athletes and to reduce the gender participation gap. Equal opportunities for everyone is one of the most important things when raising athletes. In addition, there appears to be a steady increase in the number of athletes from year to year. This is a welcome development for the community. Politicians and club owners should show the necessary sensitivity. This study highlighted the diversity in gender distribution and the importance of focusing on inequalities in sport. By recognizing these inequalities and by taking initiatives to promote inclusiveness and equal opportunities, the diversity of the sports sector and the number of athletes can increase equally. 
+
+## Summary of Results
+
+The analyzes used in this study addressed gender inequality and the inadequacy of opportunities. In addition, articles and data were also used. The research reveals that the number of athletes in different sports differs according to gender. While the number of male athletes is higher in some sports branches, the number of female athletes is higher in others. It is seen that both genders do not participate equally in the sports sector. The reasons for this inequality are stated in this study. The problems that cause this inequality should be solved by responsible media. This inequality can create major problems in society and in the field of sports.
+
+## Discussion and Future Directions
+
+Gender and number of athletes are of great importance in sports. This study aimed to examine the distribution of athletes in various sports branches by gender and number of participants. According to the research, it can be seen that the number of athletes in different sports branches differ according to gender. While the number of male athletes is high in some sports fields, it is striking that the number of female athletes is higher in others. It can be said that the social stereotypes and the different areas of interest between the two genders are the factors in this. Availability of opportunities plays a very important role for participation in sports. If it is desired to increase participation in sports, necessary opportunities should be provided especially at childhood. For this, investment in schools can be of great importance. If the necessary opportunities are not provided, it becomes very difficult to raise important athletes and a generation engaged in sports from that society. It is important to ensure equal opportunities and inclusion in the field of sport. The distribution of athletes by gender can be affected by various factors. Gender norms and expectations play an important role in shaping individuals' participation in sports. The perception that certain sports are more appropriate or appropriate for a particular gender in society can contribute to imbalances in the gender distribution of athletes. In addition, factors such as educational opportunities and equal access to sports facilities can affect the gender distribution of athletes. In order to train athletes, necessary facilities should be provided in every province and even in every school. In addition, sports clubs must do their part and recruit talented athletes. If necessary, the state should invest more in sports academies at universities. In the light of all the data, it can be said that the inadequacy of opportunities and the inability to offer equal opportunities to everyone have a negative effect on the training of athletes. However, social thoughts and misconceptions lead to the inability of women and men to participate in sports equally and to benefit from these opportunities. In order to prevent these negative situations, the situations that cause wrong thoughts should be corrected, the necessary opportunities should be provided especially to the young sports-related individuals, the necessary facilities should be established and quality athletes should be trained. While establishing these facilities, institutions, individuals, associations and individuals must do their part. In order for women to be included, clubs should make positive discrimination if necessary, organizations should invest more in women's sports competitions, and it should be accepted by societies that women can have a presence in this sector. If the necessary investments are made, women can reach the level of men in terms of sports.
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
